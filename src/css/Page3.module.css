@@ -1,0 +1,123 @@
+.page3{
+    width:100%;
+    height:auto;
+    background: linear-gradient(135deg, #E8F4F8 0%, #EFF6FF 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    padding-bottom: 70px;
+
+}
+h2{
+    margin-top: 50px;
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 48px;
+text-align: center;
+color: rgba(30, 58, 95, 1);
+}
+h2 span{
+    color:rgba(60, 179, 113, 1);
+}
+.para2{
+font-family: "Inter", sans-serif;
+width:90%;
+font-weight: 400;
+font-size: 18px;
+text-align: center;
+color:rgba(75, 85, 99, 1);
+letter-spacing: 2px;
+line-height: 30px;
+
+}
+.three{
+    width:100%;
+    height:auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.logo{
+    display:flex;
+    align-items: center;
+    width:50px;
+     height: 50px;
+    border-radius:12px;
+    padding:12px 15px;
+    background: linear-gradient(135deg, #2B7A78 0%, #17A2B8 100%);
+
+}
+.logo1{
+   display:flex;
+    align-items: center;
+     height: 50px;
+    width:50px;
+    border-radius:12px;
+    padding:12px 15px;
+    background: linear-gradient(135deg, #3CB371 0%, #34D399 100%);
+
+
+}
+.logo2{
+    display:flex;
+    align-items: center;
+   height: 50px;
+   width:50px;
+    border-radius:12px;
+    padding:12px 15px;
+   background: linear-gradient(135deg, #A855F7 0%, #EC4899 100%);
+
+
+}
+.user{
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 30px;
+text-align: center;
+color:rgba(30, 58, 95, 1);
+margin-top:30px;
+margin-bottom: 20px;
+
+}
+.features{
+    width:400px;
+    height:400px;
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: white;
+    gap: 15px;
+    padding: 30px 30px;
+    border-radius: 24px;
+}
+.features h4{
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 22px;
+color: rgba(30, 58, 95, 1);
+letter-spacing: 2px;
+margin-bottom: 10px;
+
+}
+.features p{
+    text-align: left;
+ font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 14px;
+letter-spacing: 2px;
+line-height:25px;
+color:rgba(75, 85, 99, 1);
+
+}
+.tick{
+    display:flex;
+    align-items: center;
+    color:rgba(75, 85, 99, 1);
+    gap:10px;
+
+}

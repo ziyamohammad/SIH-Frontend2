@@ -1,0 +1,80 @@
+.testimonials{
+    width:100%;
+    height:100vh;
+    overflow-x: auto;
+    display:flex;
+    align-items: center;
+    gap:20px;
+    flex-direction: column;
+   background: linear-gradient(135deg, #E8F4F8 0%, #EFF6FF 100%);
+
+}
+.para2{
+font-family: "Inter", sans-serif;
+width:70%;
+font-weight: 400;
+font-size: 18px;
+text-align: center;
+color:rgba(75, 85, 99, 1);
+letter-spacing: 2px;
+line-height: 30px;
+
+}
+.all{
+    width:auto;
+    overflow: auto;
+    scrollbar-width: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:20px;
+    padding-left:20px;
+}
+.testis{
+    width:350px;
+    height:400px;
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    padding:25px 25px;
+    gap:20px;
+    background-color: white;
+    border-radius: 24px;
+}
+.upper{
+    width:100%;
+    height:auto;
+    display: flex;
+    gap:10px;
+}
+.img{
+    width:40px;
+}
+.img img{
+    border-radius: 40px;
+}
+.uppercontent h5{
+  font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 18px;
+color:rgba(30, 58, 95, 1);
+
+}
+.uppercontent p{
+   font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 16px;
+color:rgba(75, 85, 99, 1);
+
+
+}
+.lower p{
+ font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 1px;
+color:rgba(55, 65, 81, 1);
+line-height: 25px;
+
+
+}

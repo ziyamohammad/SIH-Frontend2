@@ -1,0 +1,121 @@
+.main2{
+    width:100%;
+    height:auto;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+}
+h2{
+    margin-top: 50px;
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 48px;
+text-align: center;
+color: rgba(30, 58, 95, 1);
+}
+h2 span{
+    color:rgba(60, 179, 113, 1);
+}
+.para2{
+font-family: "Inter", sans-serif;
+width:70%;
+font-weight: 400;
+font-size: 18px;
+text-align: center;
+color:rgba(75, 85, 99, 1);
+letter-spacing: 2px;
+line-height: 30px;
+
+}
+.home{
+    width:100%;
+    display:flex;
+    padding:10px;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    margin-top: 20px;
+}
+.homeimg{
+    width:50%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+     width:50%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content:space-evenly;
+    padding: 0px 10px 0px 0px;
+
+    gap:40px
+}
+.img{
+    width:650px;
+}
+.logo{
+    display:flex;
+    align-items: center;
+    width:50px;
+     height: 50px;
+    border-radius:12px;
+    padding:12px 15px;
+    background: linear-gradient(135deg, #2B7A78 0%, #17A2B8 100%);
+
+}
+.logo1{
+   display:flex;
+    align-items: center;
+     height: 50px;
+    width:50px;
+    border-radius:12px;
+    padding:12px 15px;
+    background: linear-gradient(135deg, #3CB371 0%, #34D399 100%);
+
+
+}
+.logo2{
+    display:flex;
+    align-items: center;
+   height: 50px;
+    border-radius:12px;
+    padding:12px 15px;
+   background: linear-gradient(135deg, #A855F7 0%, #EC4899 100%);
+
+
+}
+.features{
+    width:100%;
+    height:auto;
+    display:flex;
+    align-items: left;
+   
+    gap: 20px;
+}
+.features h4{
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 22px;
+color: rgba(30, 58, 95, 1);
+letter-spacing: 2px;
+margin-bottom: 10px;
+
+}
+.features p{
+    text-align: left;
+ font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 14px;
+letter-spacing: 2px;
+line-height:25px;
+color:rgba(75, 85, 99, 1);
+
+}

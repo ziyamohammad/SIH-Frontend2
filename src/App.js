@@ -1,5 +1,6 @@
 
 import './App.css';
+import Fullpage from './component/Fullpage';
 import Main from './component/Main';
 import Navbar from './component/Navbar';
 import {BrowserRouter as Router,Route,Routes} from "react-router-dom"
@@ -11,7 +12,7 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-          <Route path="/" element={<Main/>}/>
+          <Route path="/" element={<Fullpage/>}/>
         </Routes>
       </Router>
       
