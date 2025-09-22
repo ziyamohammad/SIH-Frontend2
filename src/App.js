@@ -1,5 +1,6 @@
 
 import './App.css';
+import Auth from './component/Auth';
 import Fullpage from './component/Fullpage';
 import Main from './component/Main';
 import Navbar from './component/Navbar';
@@ -13,6 +14,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Fullpage/>}/>
+          <Route path="/auth" element={<Auth/>}/>
         </Routes>
       </Router>
       
