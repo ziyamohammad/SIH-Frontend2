@@ -4,6 +4,7 @@ import Main2 from './Main2'
 import Page3 from './Page3'
 import Workflow from './Workflow'
 import Testimonials from './Testimonials'
+import Last from './Last'
 
 const Fullpage = () => {
   return (
@@ -13,6 +14,7 @@ const Fullpage = () => {
        <Page3/>
        <Workflow/>
        <Testimonials/>
+       <Last/>
     </div>
   )
 }
