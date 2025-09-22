@@ -6,6 +6,7 @@
     flex-direction: column;
     align-items: center;
     gap:20px;
+    padding:10px;
     padding-bottom: 70px;
 
 }
@@ -120,4 +121,12 @@ color:rgba(75, 85, 99, 1);
     color:rgba(75, 85, 99, 1);
     gap:10px;
 
+}
+@media screen and (max-width:500px){
+     h2{
+        font-size:36px;
+    }
+    .features{
+        height:auto;
+    }
 }

@@ -139,3 +139,11 @@ line-height: 25px;
 
 
 }
+@media screen and (max-width:500px){
+    .all{
+        width:90%;
+    }
+    /* .testis1{
+        min-width: 300px;
+    } */
+}
